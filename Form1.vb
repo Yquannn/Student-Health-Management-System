@@ -94,6 +94,10 @@ minimum length of 6 characters."
 
     End Sub
 
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
     'Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
 
     'End Sub
