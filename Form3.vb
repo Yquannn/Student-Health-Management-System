@@ -508,6 +508,13 @@ Public Class Form3
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -540,6 +547,13 @@ Public Class Form3
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -697,6 +711,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -729,6 +750,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -761,6 +789,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -794,6 +829,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -827,6 +869,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -859,6 +908,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -891,6 +947,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -924,6 +987,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -958,6 +1028,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -990,6 +1067,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -1022,6 +1106,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -1054,6 +1145,13 @@ purposes")
         studentInfo.contactNo.Text = row.Cells("contactNo").Value.ToString()
         studentInfo.address.Text = row.Cells("address").Value.ToString()
         studentInfo.email.Text = row.Cells("emailAddress").Value.ToString()
+        studentInfo.pr.Text = row.Cells("pr").Value.ToString()
+        studentInfo.rr.Text = row.Cells("rr").Value.ToString()
+        studentInfo.bp.Text = row.Cells("bp").Value.ToString()
+        studentInfo.cc.Text = row.Cells("cc").Value.ToString()
+        studentInfo.medication.Text = row.Cells("medication").Value.ToString()
+
+        studentInfo.temp.Text = row.Cells("temp").Value.ToString()
         studentInfo.Show()
 
         'Me.Opacity = 0.8
@@ -1104,6 +1202,7 @@ purposes")
         bmiResult.Text = ""
         bmiStatus.Text = ""
         gender.Text = ""
+        medcert.Clear()
         UpdateActivityLabels()
 
     End Sub

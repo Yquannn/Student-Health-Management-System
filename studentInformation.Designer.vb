@@ -24,6 +24,7 @@ Partial Class studentInformation
     Private Sub InitializeComponent()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(studentInformation))
         Panel1 = New Panel()
+        Panel2 = New Panel()
         PictureBox1 = New PictureBox()
         Button2 = New Button()
         TabControl1 = New TabControl()
@@ -86,7 +87,6 @@ Partial Class studentInformation
         Label20 = New Label()
         PrintPreviewDialog1 = New PrintPreviewDialog()
         PrintDocument1 = New Printing.PrintDocument()
-        Panel2 = New Panel()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         TabControl1.SuspendLayout()
@@ -104,6 +104,14 @@ Partial Class studentInformation
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(1000, 108)
         Panel1.TabIndex = 1
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
+        Panel2.Location = New Point(12, 117)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(963, 24)
+        Panel2.TabIndex = 64
         ' 
         ' PictureBox1
         ' 
@@ -309,7 +317,7 @@ Partial Class studentInformation
         ' 
         ' Button4
         ' 
-        Button4.BackColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        Button4.BackColor = Color.Gold
         Button4.FlatAppearance.BorderSize = 0
         Button4.FlatStyle = FlatStyle.Flat
         Button4.ForeColor = SystemColors.Window
@@ -775,14 +783,6 @@ Partial Class studentInformation
         ' 
         ' PrintDocument1
         ' 
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        Panel2.Location = New Point(12, 117)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(963, 24)
-        Panel2.TabIndex = 64
         ' 
         ' studentInformation
         ' 

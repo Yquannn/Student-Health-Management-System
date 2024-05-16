@@ -36,8 +36,10 @@ Public Class studentInformation
         data.populateSeba()
         data.populateSoc()
         data.populateStem()
-
         data.populateCas()
+
+
+
     End Sub
 
     Private Sub populateBodyInfo()
@@ -224,6 +226,7 @@ Public Class studentInformation
                     cmd.ExecuteNonQuery()
                 End Using
                 status1.Text = "Information saved successfully!!"
+                loadData()
                 disableVitalSignBtn()
             Catch ex As Exception
                 status1.Text = "Failed to save information!!"
@@ -262,28 +265,32 @@ Public Class studentInformation
     Private Sub Button5_Click_1(sender As Object, e As EventArgs) Handles Button5.Click
         disableBtn()
         Con.Open()
-        Dim sql = "UPDATE student_information SET studentName=@studentName, age=@age, studentNumber=@studentNumber, medicalHistory=@medcert, " &
-          "course=@course, department=@department, birthday=@birthday, date=@date, guardianName=@guardianName, " &
-          "relationship=@relationship, contactNo=@contactNo, address=@address, emailAddress=@emailAddress " &
-          "WHERE id=@id"
-        Dim cmds As New MySqlCommand(sql, Con)
-        cmds.Parameters.AddWithValue("@studentName", studName.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@age", studentAge.Text)
-        cmds.Parameters.AddWithValue("@studentNumber", studentNumber.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@medcert", studentMedHistory.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@course", studentCourse.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@department", studentDepartment.Text)
-        cmds.Parameters.AddWithValue("@birthday", birthday.Text)
-        cmds.Parameters.AddWithValue("@date", dateNow.Text)
-        cmds.Parameters.AddWithValue("@guardianName", parentName.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@relationship", relationship.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@contactNo", contactNo.Text)
-        cmds.Parameters.AddWithValue("@address", address.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@emailAddress", email.Text.ToUpper)
-        cmds.Parameters.AddWithValue("@id", id.Text)
 
-        cmds.ExecuteNonQuery()
+        Dim sql As String = "UPDATE student_information SET studentName=@studentName, age=@age, studentNumber=@studentNumber, medicalHistory=@medcert, " &
+                    "course=@course, department=@department, birthday=@birthday, date=@date, guardianName=@guardianName, " &
+                    "relationship=@relationship, contactNo=@contactNo, address=@address, emailAddress=@emailAddress " &
+                    "WHERE id=@id"
 
+        Using cmds As New MySqlCommand(sql, Con)
+            cmds.Parameters.AddWithValue("@studentName", studName.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@age", studentAge.Text)
+            cmds.Parameters.AddWithValue("@studentNumber", studentNumber.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@medcert", studentMedHistory.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@course", studentCourse.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@department", studentDepartment.Text)
+            cmds.Parameters.AddWithValue("@birthday", birthday.Text)
+            cmds.Parameters.AddWithValue("@date", dateNow.Text)
+            cmds.Parameters.AddWithValue("@guardianName", parentName.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@relationship", relationship.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@contactNo", contactNo.Text)
+            cmds.Parameters.AddWithValue("@address", address.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@emailAddress", email.Text.ToUpper())
+            cmds.Parameters.AddWithValue("@id", id.Text)
+
+            cmds.ExecuteNonQuery()
+        End Using
+
+        loadData()
         status.Text = "Information updated!"
         status.ForeColor = Color.Green
         Con.Close()

@@ -7,7 +7,12 @@
     <StartupObject>Student_Health_Management_System.Form2</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>1-80_icon-icons.com_65644.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="1-80_icon-icons.com_65644.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

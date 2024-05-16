@@ -2463,7 +2463,7 @@ Partial Class Form3
         ' 
         Panel1.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
         Panel1.Controls.Add(Guna2CustomGradientPanel12)
-        Panel1.Location = New Point(231, 67)
+        Panel1.Location = New Point(227, 67)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(1008, 50)
         Panel1.TabIndex = 5
